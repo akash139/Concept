@@ -1,7 +1,7 @@
 package interfaces;
 
 interface DevOpsDeveloper{		// This Marker Interface.
-}								// There are 3 Marker Interface. Cloneable, Serializable, Remote interface.
+}					// There are 3 Marker Interface. Cloneable, Serializable, Remote interface.
 
 @FunctionalInterface			// Interface which have only 1 Abstract method.
 interface MobDeveloper {		// If there is a static method in interface it's not a functional interface.
@@ -9,7 +9,7 @@ interface MobDeveloper {		// If there is a static method in interface it's not a
 }
 
 interface GameDeveloper {
-	int Exp = 1;				// In interface local variable are built in final which can't be changed further.
+	int Exp = 1;			// In interface local variable are built in final which can't be changed further.
 	public void Sal();
 	public static void Exp(int Exp) { //Static method in interface can directly be called;
 		System.out.println("I have "+Exp+" Expirence as a Game Developer");
