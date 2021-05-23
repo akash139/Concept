@@ -26,7 +26,7 @@ public class Developer {
 		MobDeveloper m1 = () -> System.out.println("I don't have experience") ; // used Lambda Expression
 		m1.Exp();
 		
-		GameDeveloper g1 = new GameDeveloper() {
+		GameDeveloper g1 = new GameDeveloper() {	// Anonymous class
 			public void Sal() {
 				System.out.println("Game Dev: $45000");
 			}
