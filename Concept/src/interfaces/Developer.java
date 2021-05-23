@@ -1,6 +1,6 @@
 package interfaces;
 
-interface DevOpsDeveloper{			// This Marker Interface.
+interface DevOpsDeveloper{		// This Marker Interface.
 }								// There are 3 Marker Interface. Cloneable, Serializable, Remote interface.
 
 @FunctionalInterface			// Interface which have only 1 Abstract method.
