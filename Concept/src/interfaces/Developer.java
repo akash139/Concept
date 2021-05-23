@@ -27,7 +27,7 @@ public class Developer {
 		m1.Exp();
 		
 		GameDeveloper g1 = new GameDeveloper() {	// Anonymous class
-			public void Sal() {
+			public void Sal() {			// Using anonymous class we can create object of Interface.
 				System.out.println("Game Dev: $45000");
 			}
 		};
