@@ -4,11 +4,11 @@ class Counter {
 	int counter;
 
 	public synchronized void inc() { 	// synchronized method means only one thread will work at a time.
-										// to make thread safe declare as synchronized
-		counter++; 						// when you don't make your method synchronized it means your method is not
-										// thread safe.
-										// Which means multiple thread can access it same time.
-										// To make your method thread safe make your method as synchronized.
+						// to make thread safe declare as synchronized
+		counter++; 			// when you don't make your method synchronized it means your method is not
+						// thread safe.
+					        // Which means multiple thread can access it same time.
+						// To make your method thread safe make your method as synchronized.
 	}
 }
 
